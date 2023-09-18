@@ -50,3 +50,30 @@
     width: 480px;
     height: 240px;
 }
+
+.middle-block {
+    padding: 48px 0;
+}
+
+.middle-block .text h2 {
+    font: 36px extra-bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.middle-block .image-text {
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.middle-block .image-text div {
+    text-align: center;
+}
+.middle-block .image-text img {
+    width: 128px;
+    height: 128px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
