@@ -37,7 +37,10 @@
 .hero-main-block .below-header-block .text input{
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 8px;
+    border-style: none;
+    border-radius: 4px;
+    margin-top: 8px;
+    padding: 4px 24px;
 }
 
 .hero-main-block .below-header-block .image {
@@ -76,4 +79,46 @@
     height: 128px;
     border: 4px solid #3882F6;
     border-radius: 12px;
+}
+
+.third-text-block {
+    background-color: #E5E7EB;
+    padding: 120px 240px 120px 240px;
+}
+.third-text-block #quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.third-text-block #author {
+    font-weight: 700;
+    text-align: end;
+    padding: 12px 24px 0px 0px;
+}
+
+.last-block {
+    background-color: #3882F6;
+    margin: 90px 160px 90px 160px;
+    display: flex;
+    padding: 36px 96px 36px 96px;
+    border-radius: 6px;
+    color: #F9FAF8;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last-block .text #heading {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.last-block .button input{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    margin-top: 8px;
+    padding: 4px 24px;
 }
